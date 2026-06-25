@@ -15,14 +15,14 @@ for i in range(10):
 
 
 
-print("10 sided die") 
+print("\n10 sided die") 
 
 ten_sided = Die(10)
 for i in range(10):
     ten_sided.roll_die()
 
 
-print("20 sided die")
+print("\n20 sided die")
 
 twenty_sided = Die(20)
 for i in range(10):
