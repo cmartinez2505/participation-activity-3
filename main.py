@@ -12,3 +12,12 @@ print("6 sided die")
 six_sided = Die()
 for i in range(10):
     six_sided.roll_die()
+
+
+
+print("10 sided die") 
+
+ten_sided = Die(10)
+for i in range(10):
+    ten_sided.roll_die()
+
