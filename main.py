@@ -7,3 +7,8 @@ Date: June 25, 2026
 
 from die import Die
 
+print("6 sided die")
+
+six_sided = Die()
+for i in range(10):
+    six_sided.roll_die()
