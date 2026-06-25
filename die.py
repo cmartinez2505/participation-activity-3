@@ -5,7 +5,11 @@ File Purpose: to make the class Die roll the virtual die 10 times with customiza
 Date: June 25, 2026
 """
 
+import random
 
 class Die:
     def __init__(self, sides=6):
         self.sides = sides
+
+    
+
