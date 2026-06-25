@@ -21,3 +21,9 @@ ten_sided = Die(10)
 for i in range(10):
     ten_sided.roll_die()
 
+
+print("20 sided die")
+
+twenty_sided = Die(20)
+for i in range(10):
+    twenty_sided.roll_die()
